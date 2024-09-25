@@ -1,9 +1,5 @@
-# have a gui (tkinter or qt) and have a new member button
-# exsiting club members only have to enter their ID or Name they
-# use when they were a new member
 import club
 
-# read current data
 data = club.read_data()
 
 end_program = False

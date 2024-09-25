@@ -74,9 +74,9 @@ def current_member(existing_data):
         else:
             print("Invalid ID!")
 
-    # get index of row matched then
+    # get index of row matched
     member_index = member_info.index.values[0]
-    # use current_data.loc[row,col] += 1
+    # update member attendance
     existing_data.loc[member_index, "attendance"] += 1
 
 
